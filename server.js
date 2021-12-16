@@ -20,7 +20,7 @@ const connection = mysql.createConnection({
 });
 connection.connect();
 
-const multer = require('multer');
+const multer = require('multer'); // 파일명을 중복되지않게 생성
 const upload = multer({dest: './upload'})
 
 // 조회
