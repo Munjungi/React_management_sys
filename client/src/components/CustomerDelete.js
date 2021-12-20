@@ -6,7 +6,6 @@ import { DialogContent } from '@material-ui/core';
 import { Button } from '@material-ui/core';
 import { Typography } from "@material-ui/core";
 
-
 class CustomerDelete extends React.Component {
 
     constructor(props){
